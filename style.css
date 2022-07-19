@@ -1,0 +1,149 @@
+/* fonts style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&family=Roboto+Mono:ital,wght@0,500;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*ssssssssssssssssssssssssssss
+     header section start 
+ssssssssssssssssssssssssssssss*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player {
+    display: flex;
+    background-color: #161616;
+    border-radius: 10px;
+    width: 1200px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.player-taitel {
+    width: 50%;
+
+
+}
+
+.player-taitel h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+}
+
+.player-taitel p {
+    color: white;
+}
+
+.player-img {
+    width: 50%;
+}
+
+.player-img img {
+    width: 80%;
+}
+
+.pri-button {
+    padding: 16px 25px;
+    background-color: #DD0000;
+    font-size: 20px;
+    color: white;
+    gap: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* --------------------
+    main style start
+------------------------*/
+/* mod-section start */
+.mod-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.mod-section #red-clr {
+    background-color: #DD0000;
+}
+
+.mod-section li {
+    list-style: none;
+    padding: 17px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.mod-section a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/* match style start*/
+.all-box {
+    display: flex;
+}
+
+.match {
+    width: 312px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 5px;
+}
+
+.match-benar img {
+    width: 312px;
+    height: 175px;
+}
+
+.icon-time {
+    display: flex;
+
+}
+
+.match-taitel {
+    padding: 10px;
+}
+
+.seq-button {
+    padding: 4px 16px;
+    border: 1px solid black;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.evry-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* match style end */
