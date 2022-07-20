@@ -1,0 +1,17 @@
+.mod-section li {
+    list-style: none;
+    padding: 17px 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    margin-right: 35px;
+}
+
+.mod-section #red-clr-2 {
+    background-color: #DD0000;
+}
+
+.mod-section #red-clr {
+    background-color: white;
+}
