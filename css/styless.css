@@ -5,7 +5,10 @@
     border-radius: 10px;
     text-align: center;
     margin: 10px;
-    margin-right: 35px;
+}
+
+.mod-section ul {
+    padding: 0px;
 }
 
 .mod-section #red-clr-2 {
@@ -14,4 +17,131 @@
 
 .mod-section #red-clr {
     background-color: white;
+}
+
+@media only screen and (max-width:676px) {
+    .player {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .player-taitel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .player-taitel h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .player-taitel p {
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+    }
+
+    .player-img {
+        width: 100%;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .all-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mod-section {
+        background-color: white;
+
+    }
+
+    .mod-section li {
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .grid-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .goal {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .goal ul {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 50px;
+        padding: 0%;
+    }
+
+    .goal li {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 677px) and (max-width: 992px) {
+
+
+    .player {
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .player-taitel {
+        width: 80%;
+    }
+
+    .player-taitel h1 {
+        font-size: 40px;
+    }
+
+    .player-taitel a {
+        font-size: 15px;
+    }
+
+    .player-img {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .all-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .mod-section {
+        background-color: white;
+        justify-content: flex-end;
+        height: auto;
+    }
+
+    .mod-section ul {
+
+        flex-direction: row;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .grid-box {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
