@@ -9,11 +9,57 @@ body {
 /*ssssssssssssssssssssssssssss
      header section start 
 ssssssssssssssssssssssssssssss*/
-header {
+
+/*--------------------
+-----------------------
+ upcoming html section 
+ ----------------------
+ ----------------------*/
+
+
+.main-box {
+    box-shadow: 1px 1px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contry-name {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* -----------------
+---------------------
+upcoming section end
+--------------------
+-------------------- */
+header,
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 130px;
 }
 
 .player {
@@ -46,6 +92,7 @@ header {
     width: 50%;
 }
 
+
 .player-img img {
     width: 80%;
 }
@@ -70,9 +117,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 312px;
-    height: 312px;
+    height: 280px;
     background-color: #161616;
-    border-radius: 10px;
 }
 
 .mod-section #red-clr {
@@ -83,9 +129,14 @@ header {
     list-style: none;
     padding: 17px 30px;
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     margin: 10px;
+    margin-right: 35px;
+}
+
+.mod-section li:hover {
+    background-color: #DD0000;
 }
 
 .mod-section a {
@@ -97,6 +148,8 @@ header {
 /* match style start*/
 .all-box {
     display: flex;
+    /* justify-content: space-between; */
+    width: 1300px;
 }
 
 .match {
@@ -147,3 +200,38 @@ header {
 }
 
 /* match style end */
+/*(((((((((((((((((((((((((((
+     footer section started
+))))))))))))))))))))))))))))) */
+.goal {
+    background-color: black;
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.goal h1 {
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.goal ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goal a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.goal li {
+    padding: 80px 30px;
+}
