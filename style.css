@@ -93,9 +93,39 @@ main {
     align-items: flex-end;
 }
 
+@keyframes top-down {
+    0% {
+        top: 0px;
+    }
+
+    25% {
+        top: 530px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    75% {
+        top: 530px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.football {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation: top-down 5s ease-in-out 0s infinite alternate;
+    animation-play-state: running;
+}
 
 .player-img img {
     width: 80%;
+
 }
 
 .pri-button {
@@ -204,7 +234,10 @@ main {
     gap: 24px;
 }
 
-/* match style end */
+.iped-veiw {
+    display: none;
+}
+
 /*(((((((((((((((((((((((((((
      footer section started
 ))))))))))))))))))))))))))))) */
@@ -250,6 +283,11 @@ hr {
     font-size: 30px;
     gap: 20px;
     padding: 40px;
+
+}
+
+.soceal-mideya a {
+    text-decoration: none;
 }
 
 @media only screen and (max-width:676px) {
@@ -382,6 +420,19 @@ hr {
         width: 100%;
         align-items: center;
         justify-content: center;
+    }
+
+    #none-1 {
+        display: none;
+    }
+
+    .iped-veiw {
+        display: block;
+        padding: 12px 29px;
+        background-color: #DD0000;
+        color: white;
+        border-radius: 5px;
+        margin-top: 50px;
     }
 
 }
