@@ -68,7 +68,6 @@ main {
     border-radius: 10px;
     width: 1200px;
     justify-content: flex-end;
-    /* align-items: center; */
     padding-left: 40px;
 }
 
@@ -92,7 +91,6 @@ main {
     width: 50%;
     display: flex;
     align-items: flex-end;
-    /* justify-content: flex-end; */
 }
 
 
@@ -113,7 +111,6 @@ main {
 /* --------------------
     main style start
 ------------------------*/
-/* mod-section start */
 .mod-section {
     display: flex;
     flex-direction: column;
@@ -162,8 +159,8 @@ main {
 
 .match {
     width: 312px;
-    box-shadow: 1px 1px 2px black;
-    border-radius: 5px;
+    box-shadow: 1px 1px 1px #1e1e1e71;
+    border-radius: 10px;
 }
 
 .match-benar img {
@@ -262,6 +259,11 @@ hr {
         justify-content: center;
         padding: 0%;
         width: 100%;
+    }
+
+    .contry-name h2 {
+        font-size: 20px;
+
     }
 
     .player-taitel {
@@ -364,11 +366,15 @@ hr {
     .mod-section ul {
 
         flex-direction: row;
-        padding: 0px;
         display: flex;
         justify-content: center;
+    }
 
-
+    .mod-section li {
+        padding: 17px 30px;
+        list-style: none;
+        box-shadow: 1px 1px 10px black;
+        margin: 10px;
     }
 
     .evry-match {
